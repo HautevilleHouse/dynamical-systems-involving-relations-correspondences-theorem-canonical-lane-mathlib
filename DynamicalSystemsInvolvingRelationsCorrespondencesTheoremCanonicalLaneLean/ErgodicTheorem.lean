@@ -1,0 +1,13 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.DynamicalSystemsInvolvingRelationsCorrespondencesTheoremCanonicalLaneLean.InvariantMeasure
+
+namespace HautevilleHouse
+namespace DynamicalSystemsInvolvingRelationsCorrespondencesTheoremCanonicalLaneLean
+
+structure ErgodicTheorem (S : RelationCorrespondenceSpace) (F : DynamicalFlow S) where
+  invariantMeasure : InvariantMeasure S F
+  ergodicDecomposition : Prop
+  timeAverageEqualsSpaceAverage : Prop
+
+end DynamicalSystemsInvolvingRelationsCorrespondencesTheoremCanonicalLaneLean
+end HautevilleHouse
